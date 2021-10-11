@@ -31,9 +31,11 @@
      }
      .parent{
          display: flex;
+         flex-wrap: wrap;
         margin-top: 100px;
         margin-left: 40px;
         margin-right: 40px;
+        justify-content: space-between;
      }
      .box{
         height: 300px;
@@ -47,7 +49,7 @@
         box-shadow: 8px 8px 8px pink ;
      }
      .box1{
-        
+        margin-left: 300px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         
@@ -65,6 +67,8 @@
         
     }
     .box4{
+        /* margin-left: 400; */
+        margin-left: 300px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         
@@ -114,7 +118,7 @@
     }
     .ff{
         filter: blur(15px);
-    }
+    } 
     span {
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
